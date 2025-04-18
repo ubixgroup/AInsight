@@ -1,0 +1,3 @@
+Problem: {Discussed Problem}
+Background: {Other Relevant Information from the Conversation}
+Solutions: {Solutions Proposed by the Decision-Maker during the Decision-Making Process}
