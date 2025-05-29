@@ -2,7 +2,7 @@
 
 ## About the Project
 
-This is the codebase for the paper named "AInsight: Augmenting Expert Decisions with On-the-Fly Insights Grounded in Historical Data". Author names will be published upon acceptance of the work.
+This is the codebase for the paper named "AInsight: Augmenting Expert Decisions with On-the-Fly Insights Grounded in Historical Data" by Mohammad Abolnejadian, Shakiba Amirshahi, Matthew Brehmer, and Anamaria Crisan.
 
 This Streamlit-based prototype aims to help doctors make more informed decisions by generating on-the-fly insights grounded in historical data while having conversations with patients. The system can detect key information from patient conversations, including:
 - The patient's medical problems
@@ -105,3 +105,20 @@ streamlit run run.py
 
 When running locally, the application is accessible at:
 - http://localhost:8501
+
+## Citation
+If you use this work, please cite the following paper:
+```bibtex
+@inproceedings{Abolnejadian2025AInsight,
+  author    = {Abolnejadian, Mohammad and Amirshahi, Shakiba and Brehmer, Matthew and Crisan, Anamaria},
+  title     = {AInsight: Augmenting Expert Decision-Making with On-the-Fly Insights Grounded in Historical Data},
+  booktitle = {Proceedings of the 7th ACM Conference on Conversational User Interfaces (CUI '25)},
+  year      = {2025},
+  month     = {July},
+  pages     = {to be determined},
+  publisher = {ACM},
+  address   = {Waterloo, ON, Canada},
+  doi       = {10.1145/3719160.3737633},
+  isbn      = {979-8-4007-1527-3/2025/07}
+}
+```
